@@ -1,1 +1,1 @@
-- [Buku](README.md)
+- [Sistem Informasi](/README.md)

@@ -1,5 +1,4 @@
-# Buku
+# Sistem Informasi
 
-[Mulai](#mulai)
-[Generate](https://github.com/hexatester/template-buku/generate ":crossorgin")
-[Github](https://github.com/hexatester/buku ":crossorgin")
+[Mulai](#sistem-operasi)
+[Github](https://github.com/UnivTerbuka/MSIM4201 ":crossorgin")
