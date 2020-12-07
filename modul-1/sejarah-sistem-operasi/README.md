@@ -7,29 +7,29 @@ Perkembangan Sistem Operasi sangat dipengaruhi oleh perkembangan hardware. Fasil
 Evolusi sistem operasi dari waktu ke waktu adalah sebagai berikut.
 
 1. Generasi ke-nol (1940)
-    a. Komponen utama tabung hampa udara
-    b. Sistem komputer belum menggunakan sistem operasi
-    c. Semua operasi komputer dilakukan secara manual melalui plugboards, dan hanya bisa digunakan untuk menghitung (+,- dan *)
+   a. Komponen utama tabung hampa udara
+   b. Sistem komputer belum menggunakan sistem operasi
+   c. Semua operasi komputer dilakukan secara manual melalui plugboards, dan hanya bisa digunakan untuk menghitung (+,- dan \*)
 2. Generasi ke-satu/pertama (1950)
-    a. Komponen utama transistor
-    b. Sistem operasi berfungsi terutama sebagai pengatur pergantian antar job berikutnya lebih efisien. Dalam masa ini muncul konsep batch system (semua job sejenis dikumpulkan jadi satu).
-    c. Input memakai punch card.
+   a. Komponen utama transistor
+   b. Sistem operasi berfungsi terutama sebagai pengatur pergantian antar job berikutnya lebih efisien. Dalam masa ini muncul konsep batch system (semua job sejenis dikumpulkan jadi satu).
+   c. Input memakai punch card.
 3. Generasi ke-dua (1960)
-    a. Komponen utama IC.
-    b. Berkembang konsep-konsep:
-        (1) Multiprogramming, satu prosesor mengerjakan banyak program yang ada di memori utama.
-        (2) Multiprocessing, satu job dikerjakan oleh banyak prosesor untuk meningkatkan utilitas.
-        (3) Spooling (Simultaneous Peripheral Operation On Line), bertindak sebagai buffer saja, dan mampu menerima pesanan meskipun belum akan dikerjakan.
-        (4) Device Independence, masing-masing komponen memiliki sifat yang saling berbeda (misal: tiap-tiap printer memiliki driver).
-        (5) Time sharing atau multitasking.
-        (6) Real time system, berguna sebagai kontrol bagi mesin-mesin.
+   a. Komponen utama IC.
+   b. Berkembang konsep-konsep:
+   (1) Multiprogramming, satu prosesor mengerjakan banyak program yang ada di memori utama.
+   (2) Multiprocessing, satu job dikerjakan oleh banyak prosesor untuk meningkatkan utilitas.
+   (3) Spooling (Simultaneous Peripheral Operation On Line), bertindak sebagai buffer saja, dan mampu menerima pesanan meskipun belum akan dikerjakan.
+   (4) Device Independence, masing-masing komponen memiliki sifat yang saling berbeda (misal: tiap-tiap printer memiliki driver).
+   (5) Time sharing atau multitasking.
+   (6) Real time system, berguna sebagai kontrol bagi mesin-mesin.
 4. Generasi ketiga (1970)
-    a. Komponen utama VLSI (Very Large Scale Integrated Circuit).
-    b. Menggunakan konsep general purpose system, sehingga sistem operasi menjadi sangat kompleks, mahal dan sulit untuk dipelajari.
+   a. Komponen utama VLSI (Very Large Scale Integrated Circuit).
+   b. Menggunakan konsep general purpose system, sehingga sistem operasi menjadi sangat kompleks, mahal dan sulit untuk dipelajari.
 5. Generasi keempat (pertengahan 1970-1an hingga sekarang)
-    a. PC (Personal Computer) makin populer.
-    b. Sistem Operasi sudah dengan jaringan komputer dengan tujuan: data sharing, hardware sharing dan program sharing.
-    c. User interface semakin mudah digunakan (user friendly) tanpa mengurangi kinerja komputer.
+   a. PC (Personal Computer) makin populer.
+   b. Sistem Operasi sudah dengan jaringan komputer dengan tujuan: data sharing, hardware sharing dan program sharing.
+   c. User interface semakin mudah digunakan (user friendly) tanpa mengurangi kinerja komputer.
 
 ## SISTEM AWAL (SERIAL PROCESSING)
 
@@ -40,3 +40,5 @@ Karena kebutuhan yang beragam, software dan hardware tambahan banyak dikembangka
 ## SISTEM BATCH SEDERHANA
 
 Dengan sistem awal (Serial Processing) ternyata banyak waktu CPU yang terbuang. Sering CPU tidak terpakai (idle) karena programmer atau operator sedang mengganti atau memasang tape. Padahal pada saat itu harga komputer serta biaya perawatan dan operasionalnya sangat mahal. Karena hal tersebut kemudian ditemukan sebuah cara, yaitu mengumpulkan job-job yang sejenis untuk dieksekusi oleh CPU sebagai suatu group atau kumpulan job. Dengan sistem batch sederhana ini maka pemakai tidak punya akses langsung ke mesin komputer.
+
+**[Rangkuman](./rangkuman.md)**

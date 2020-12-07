@@ -21,14 +21,16 @@ Sistem operasi adalah lapisan dari program aplikasi yang digunakan untuk mengelo
 
 Menurut Anderson & Dahlin ( 2014) sistem operasi memiliki tiga peran sebagai yang dibutuhkan untuk menjalankan sekelompok program. Ketiga peran tersebut adalah sebagai berikut.
 
-### OPERATING SYSTEMS PLAY REFEREE  
+### OPERATING SYSTEMS PLAY REFEREE
 
 Sistem operasi memainkan peran sebagai wasit, mereka mengelola sumber daya bersama berbagai aplikasi yang berjalan pada mesin fisik yang sama. Misalnya, sistem operasi dapat menghentikan satu program dan memulai yang lain. Sistem operasi mengisolasi aplikasi yang berbeda satu sama lain, sehingga jika ada bug dalam satu aplikasi maka tidak merusak aplikasi lain yang berjalan di mesin yang sama. Sistem operasi harus melindungi dirinya sendiri dan aplikasi lain dari virus komputer berbahaya. Ketika aplikasi berbagi sumber daya fisik, maka sistem operasi perlu memutuskan aplikasi mana yang mendapatkan sumber daya tersebut.
 
-### OPERATING SYSTEMS PLAY ILLUSIONIST  
-  
+### OPERATING SYSTEMS PLAY ILLUSIONIST
+
 Sistem operasi memainkan peran sebagai ilusionis, mereka menyederhanakan desain aplikasi dari kompleksitas fisik perangkat keras. Untuk menulis program "hello world", tidak perlu untuk memikirkan berapa banyak memori fisik yang dimiliki sistem, atau berapa banyak program lain yang mungkin berbagi sumber daya komputer. Sebaliknya, sistem operasi memberikan ilusi memori yang hampir tak terbatas sebagai abstraksi di atas jumlah memori fisik yang terbatas. Sistem operasi juga memberikan ilusi bahwa setiap program memiliki prosesor komputer sepenuhnya untuk dirinya sendiri. Jelas, kenyataannya sangat berbeda! Ilusi ini memungkinkan aplikasi untuk ditulis secara independen dari jumlah memori fisik pada sistem atau jumlah fisik prosesor. Karena aplikasi ditulis ke tingkat abstraksi yang lebih tinggi, sistem operasi bebas untuk mengubah jumlah sumber daya yang ditetapkan untuk setiap aplikasi ketika aplikasi mulai dijalankan dan berhenti.
 
-### OPERATING SYSTEMS PROVIDE GLUE  
-  
+### OPERATING SYSTEMS PROVIDE GLUE
+
 Sistem operasi memainkan peran sebagai perekat, satu set layanan umum antar aplikasi. Manfaat penting dari layanan umum adalah untuk memfasilitasi berbagi antar aplikasi. Misalnya, memotong dan menempelkan pekerjaan secara seragam pada seluruh sistem dan file yang ditulis oleh satu aplikasi sehingga dapat dibaca oleh yang lain (fungsi atau Web API). Banyak sistem operasi yang menyediakan rangkaian rutin antarmuka pengguna yang umum untuk membantu aplikasi memberikan "look and feel " yang umum. Mungkin yang paling penting adalah sistem operasi menyediakan lapisan yang memisahkan aplikasi dari perangkat input dan output perangkat keras, sehingga aplikasi dapat ditulis secara independen yang mana keyboard, mouse atau disk drive tertentu sedang digunakan pada komputer tertentu. Sistem operasi ditinjau dari apa yang dikerjakan yaitu sebagai resource allocator atau resource manager yang bertugas untuk mengalokasikan sumber daya komputer.
+
+**[Rangkuman](./rangkuman.md)**
