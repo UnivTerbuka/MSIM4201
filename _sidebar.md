@@ -1,1 +1,3 @@
 - [Sistem Informasi](/README.md)
+  - [Modul 1: Pengenalan Sistem Operasi](/modul-1/README.md)
+    - [Pengertian Sistem Operasi](/modul-1/pengertian-sistem-operasi/README.md)
